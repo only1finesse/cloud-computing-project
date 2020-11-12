@@ -1,0 +1,15 @@
+GCP - Google Cloud Platform 
+What it is and why you should use it and how
+
+First, what is a Cloud Platform
+A public cloud lets you leverage its resources to empower the applications you build, as well as to reach a broader base of customers.
+Cloud computing today allows hardware and software products to co-exist remotely (in data centers) and at-scale. 
+Together these products work to deliver specific services. Users typically can access, manage, and use the tools they require via a web-interface – and that’s true for Google Cloud Platform services as well.
+GCP is essentially a public cloud-based machine whose services are delivered to customers on an as-you-go basis, by way of service components.
+The Google Cloud Platform (GCP) is a platform that delivers over 90 information technology services (aka products),
+which businesses, IT professionals, and developers can leverage to work more efficiently, gain more flexibility, and/or enable a strategic advantage.
+In addition to service accessibility, users also gain flexibility and choice when working with Google Cloud Platform: 
+Each service is available ‘a la carte’ so that users can leverage different resources to develop the infrastructure they need.
+Once they have identified the Google Cloud Platform services that would benefit them, users simply create a “project” via the intuitive, web-based GCP Console. Better still, project owners can manage which team members or admins have access to which services.
+
+
