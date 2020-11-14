@@ -1,0 +1,93 @@
+GCP - Google Cloud Platform 
+-- What it is and why you should use it and how
+
+- First, what is a Cloud Platform?
+A cloud platform lets you leverage its resources to empower the applications you build, as well as to reach a broader base of customers.
+Cloud computing today allows hardware and software products to co-exist remotely (in data centers) and at-scale. 
+Together these products work to deliver specific services. Users typically can access, manage, and use the tools they require via a web-interface – and that’s true for Google Cloud Platform services as well.
+GCP is essentially a public cloud-based machine whose services are delivered to customers on an as-you-go basis, by way of service components.
+The Google Cloud Platform (GCP) is a platform that delivers over 90 information technology services (aka products),
+which businesses, IT professionals, and developers can leverage to work more efficiently, gain more flexibility, and/or enable a strategic advantage.
+In addition to service accessibility, users also gain flexibility and choice when working with Google Cloud Platform: 
+Each service is available ‘a la carte’ so that users can leverage different resources to develop the infrastructure they need.
+Once they have identified the Google Cloud Platform services that would benefit them, users simply create a “project” via the intuitive, web-based GCP Console. Better still, project owners can manage which team members or admins have access to which services.
+
+
+-- WHAT DOES GOOGLE CLOUD PLATFORM DO 
+
+-Google Cloud Platform is a provider of computing resources for deploying and operating applications on the web. 
+Its specialty is providing a place for individuals and enterprises to build and run software, and it uses the web to connect to the users of that software. 
+Think of tens of thousands of websites operating on a network of "hyperscale" (very big, but also very divisible) data centers, and you'll get the basic idea.
+When you run a website, an application, or a service on Google Cloud Platform (GCP), Google keeps track of all of the resources it uses -- specifically, how much processing power, data storage, database queries, and network connectivity it consumes. 
+Rather than lease a server or a DNS address by the month (which is what you would do with an ordinary website provider), you pay for each of these resources on a per-second basis (competitors charge per-minute), with discounts that apply when your services are used heavily by your customers on the web.
+
+-- DISTINGUISHING FEATURES OF GOOGLE CLOUD PLATFORM
+
+-So what do you actually do on a cloud platform, and why would you want to do it on Google's? 
+You use a cloud platform when you want the services you present to your users, your customers, or your fellow employees to be an application as opposed to a website. 
+Maybe you want to help homebuilders estimate the size and structure of the cabinets they need to rebuild a kitchen. Maybe you're analyzing the performance statistics of athletes trying out for a college sports club, and you need sophisticated analytics to tell the head coaches whose performance could improve. 
+Or you could be scanning hundreds of thousands of pages of archived newspaper copy, and you need to build a scannable index dating back decades.
+
+You use a cloud platform such as GCP when you want to build and run an application that can leverage the power of hyperscale data centers in some way: 
+to reach users worldwide, or to borrow sophisticated analytics and AI functions, or to utilize massive data storage, or to take advantage of cost efficiencies. 
+You pay not for the machine but for the resources the machine uses.
+
+-- Google Cloud Platform is perceived to have certain competitive strengths:
+
+- Automating the deployment of modern applications. 
+An app is made of many moving parts, which is why some developers prefer to build their apps in the cloud to begin with ("cloud-native"). 
+Google is the originator of Kubernetes, which is an orchestrator for applications comprised of many components. Early on, Google took a proactive approach to automating the deployment of these multifaceted apps to the cloud: 
+for example, opening itself to Kubo, an automation platform originally created to help developers using Cloud Foundry to deploy their applications from dev platforms to the cloud.
+
+- Creative cost control. 
+As you'll see later, rather than being the low-cost leader, Google's strategy with GCP is to enable cost competitiveness in certain "sweet spot" scenarios. 
+For example, Google offers a lifecycle manager for its object data storage, which enables the offloading or deletion of objects that haven't been used in 30 days or more.
+
+- Friendlier hand-holding for first-time users. 
+A cloud services platform can be an overwhelming concept for a newcomer to digest. Just as it wasn't obvious to many consumers what the purpose of a microcomputer actually was, a public cloud is a new and foreign beast for folks who are accustomed to seeing and touching the machine they're using.  
+GCP offers step-by-step examples of doing many of the most common tasks -- for example, spinning up a Linux-based virtual machine, which is like claiming and setting up your own, brand new computer out of thin air.
+
+- What types of tools are available via the Google Cloud Platform?
+
+Google Cloud Platform services are robust. One way to navigate them is to consider which solutions are available based on your primary computing needs: infrastructure as a service (IaaS), platform as a service (PaaS), and software-as-a-service (SaaS).
+
+• IaaS enables IT to run virtual machines without having to invest in or manage this computing infrastructure themselves. Often IT will opt for an IaaS solution when the workload is temporary, experimental, or subject to unexpected changes (e.g. sandbox projects).
+• PaaS is the next step, building on the IaaS model. Customers opt for all of the benefits of IaaS, plus they get underlying infrastructure – like operating systems and middleware. Their vendor hosts and manages all of these elements.
+• SaaS goes one more step – everything is available via the web: the provider hosts, manages, and delivers the entire infrastructure including applications. Users simply log in to access the resources the specific solution delivers, e.g. backup and recovery tools.
+
+Another way to navigate Google Cloud Platform is by service-offering type. Core service categories include:
+Compute
+Networking
+Storage and Databases
+Artificial Intelligence (AI) / Machine Learning (ML)
+Big Data
+Identity and Security
+Management Tools
+
+This is far from a complete list of Google Cloud Platform services, though it does introduce you to the major entries. 
+In fact, some of the company's many services (all of which may be found in a list on this page) are applications or reconfigurations of other services -- ways to use a service that would perform a broad function, for a more specific purpose.
+
+
+What does using Google Cloud Platform cost?
+Each of these services consumes fundamental resources of cloud computing: processor power, memory, data storage, and connectivity. 
+Like other cloud service providers, Google charges its GCP customers for the resources these services consume. So whatever you choose to do with GCP, you pay for the resources they consume. 
+(As you can imagine, BigQuery and BigTable can incur some significant expenses in data storage consumption.)
+
+The formulas for determining the actual prices for resource consumption are actually somewhat complex.  Google does offer a pricing calculator using formulas that are updated up-to-the-minute. 
+But to use that calculator, your ballpark estimates of what resources you plan to consume, need to be within a surprisingly narrow ballpark. For example, to obtain a price estimate for Google Kubernetes Engine, you'd need to know the maximum number of compute nodes you'd be scaling out to, how much persistent disk storage your application will require (as opposed to ephemeral storage), and which availability zone you feel would be most efficient for load balancing, among other factors.
+
+Amazon AWS set the standard with its pricing model for virtual machine instances. A VM instance has a "buildout" that's like a real server. 
+It has a fixed amount of RAM, a fixed number of virtual CPUs, and a base tier of file storage. Google Compute Engine has its own selection of VM instances, as its competitors do. It calls these instances pre-defined, with base prices (at the time of this writing) of just over $0.03 per virtual CPU per hour of processing, and $0.004 per gigabyte per hour for storage. However, Google then recalculates these figures on a per-second basis, with a minimum time interval of 60 seconds.
+
+GCP then applies discounts for certain usage patterns of GCE and other services. Google claims these discounts can reduce average expenditures for its cloud services over Amazon's and Azure's counterparts:
+
+
+- Google Compute Engine allows customers to preempt virtual machine instances when they're not in active use. So unlike a pricing scenario where you pay for the instance plus the resources it uses, a GCE customer pays for the perceptibility, but is then discounted when that preemption is put into play. The company often claims customers have saved as much as 80% over competitors' services, and 8%  on average over AWS.
+-Google claims that GCE customers can save significantly when they tailor their own custom instance types, as opposed to choosing an over-provisioned, pre-configured instance type.
+-Insert IMG-
+
+- GCP applies so-called sustained use discounts on persistently available workloads, on a roughly linear scale starting with workloads used over 25% of all available time during a given month. A workload that runs every minute of a billing period may be discounted as much as 30%.
+
+- Google will discount certain customers as much as 57% for committing upfront to resource usage from between 1 to 3 years of sustained service.
+
+All this being said, Google's specialty is not the classic virtual machine. Although you could conceivably save money over AWS deploying a VM in Google's cloud, especially on a custom instance, GCP is gearing itself more and more to be a host for containerized applications -- a modernized deployment and management system for applications that were designed during, and for, the cloud era.
