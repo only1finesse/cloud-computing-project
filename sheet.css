@@ -1,5 +1,5 @@
 * {
-    margin: ;
+    margin: 0;
 }
 
 html,
@@ -89,6 +89,7 @@ article {
         outline: none;
         box-sizing: border-box;
     }
+}
 
     .wrapper {
         top: 2em;
@@ -103,7 +104,7 @@ article {
     }
 
     .wrapper .input {
-        width: %;
+        width: 60%;
         padding: 10px 17px;
         border: none;
         border-radius: 5px;
