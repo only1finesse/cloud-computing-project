@@ -126,3 +126,17 @@ article {
         transform: translate(-50%, -50%);
         font-size: 18px;
     }
+
+    button {
+        display: block;
+        margin: 20px auto;
+        border-style: solid;
+        border-radius: 30px;
+        padding: 40px;
+        font-size: large;
+        text-align: center;
+        background-color: rgb(32, 28, 94);
+        cursor: pointer;
+        box-sizing: border-box;
+        
+    }
