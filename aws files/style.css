@@ -1,25 +1,131 @@
-body {
-  background-color: #febd69;
-  width: 90%;
-  margin: auto;
+* {
+  margin: 0;
 }
 
-img {
-  display: block;
-  margin: auto;
-  width: 10%;
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Comfortaa", cursive;
+  background-color: rgb(235, 229, 245);
+}
+
+p {
+  margin: 0.5em 0 0.5em 0;
 }
 
 header {
-  text-align: center;
-  color: #37475a;
-}
-footer {
   display: block;
-  margin: auto;
-  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(32, 28, 94);
+  padding: 15px;
+  font-size: 17px;
 }
 
+nav a:visited,
+nav a:link {
+  color: #c90f6c;
+  text-decoration: none;
+}
+
+nav > ul {
+  display: inline;
+  padding: 0;
+  float: right;
+  margin: 7px;
+}
+
+nav > ul > li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 13px 0 13px;
+  line-height: 25px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: "Bree Serif", serif;
+}
+
+main {
+  display: block;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  min-height: 85%;
+}
+
+footer {
+  padding: 15px;
+}
+
+aside,
+article {
+  padding: 2em;
+  margin-top: 3em;
+}
+
+aside {
+  text-align: center;
+  background-image: url(Images/background.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  height: 100vh;
+}
+
+article {
+  width: 75%;
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    display: flex;
+  }
+
+  aside {
+    margin-left: 1%;
+    outline: none;
+    box-sizing: border-box;
+  }
+}
+
+.wrapper {
+  top: 2em;
+  left: 2em;
+  background: rgba(0, 0, 0, 0.6);
+  max-width: 250px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .input {
+  width: 60%;
+  padding: 10px 17px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.searchbutton {
+  background: #47d1cac2;
+  width: 20%;
+  border-radius: 5px;
+  position: relative !important;
+  cursor: pointer;
+}
+
+.searchbutton .fas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
 button {
   display: block;
   margin: 20px auto;
@@ -28,25 +134,8 @@ button {
   padding: 40px;
   font-size: large;
   text-align: center;
-  background-color: #37475a;
+  background-color: ;
   cursor: pointer;
   box-sizing: border-box;
-  color: white;
-}
-/*
-p {
-  text-align: center;
-  width: 300px;
-  border: 15px solid #131a22;
-  padding: 50px;
-  margin: 20px;
-  margin-left: 460px;
-}
-*/
-h2 {
-  text-align: center;
-  font-family: AmazonEmber, Helvetica Neue, Helvetica, Arial, sans-serif;
-}
-li {
-  font-size: 20px;
+  color: rgb(32, 28, 94);
 }
