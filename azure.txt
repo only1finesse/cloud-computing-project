@@ -1,1 +1,3 @@
 This will be page for Microsoft Azure. This will be for content for our web page. 
+new Azure
+new user prompt null 
