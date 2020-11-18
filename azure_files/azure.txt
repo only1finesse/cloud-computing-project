@@ -1,0 +1,19 @@
+Content of Microsoft Azure:
+
+Microsoft Azure, formerly known as Windows Azure, is Microsoft public cloud
+computing platmore. It provides a range of cloud services, including 
+computing, analysitcs, storage and networking. Users can pick and choose from 
+these services to develoop and scale new applications, or run existing
+applicaitons in the public cloud.
+
+The Azure platform aims to help businesses manage challenges and meet their
+organizational goals. It offs tools that support all industries including
+e-commerce, finance and a variety of Fortune 500 companies, all compatible 
+with open source technology. There are four different forms of cloud computing:
+infrastructure as a service (Iaas), platform as a service(PaaS), software as
+(SaaS), and serverless. 
+
+How does Microsoft Azure work?
+Once customers subscribe to Azure, they have access to all the services included in 
+the Azure portal. Subscribers can use these services to create cloud based 
+resources, such as virtual machines and databases.
